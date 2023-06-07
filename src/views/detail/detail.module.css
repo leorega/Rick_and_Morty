@@ -1,0 +1,33 @@
+.detailContainer {
+    width: 50%;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    background-color: rgb(188, 225, 195,0.5);    
+}
+
+.font {
+    font-family: 'rickpickle';
+    color: rgb(9, 151, 161);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.detail {
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+}
+
+.imageContainer {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #130744;
+}

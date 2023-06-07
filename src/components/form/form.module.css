@@ -1,0 +1,45 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    background-color: rgb(188, 225, 195,0.5);
+}
+
+.image {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #130744;
+    margin-bottom: 20px;
+}
+
+.font {
+    font-family: 'rickpickle';
+    font-size: xx-large;
+    color: rgb(9, 151, 161);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.input {
+    border-radius: 5px;
+    width: 60%;
+    height: 30px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: rgb(157, 214, 233);
+    height: 30px; 
+    font-family: 'rickpickle';
+    font-size: larger;   
+}
+
+.span {
+    color: red;
+    font-size: medium;
+}

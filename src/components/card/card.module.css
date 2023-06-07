@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'rickpickle';
+    src: url('../../../public/shlop rg.otf') format('truetype');
+}
+
+.card {
+    width: 20vw;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #fff;
+    background-color: rgb(188, 225, 195,0.5);
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #000000;
+    color: aqua;
+}
+
+.button:hover {
+    background-color: gray;
+    color: red;
+    cursor: pointer;
+}
+
+.images {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px #130744;
+}
+
+.font {
+    font-family: 'rickpickle';
+    color: rgb(9, 151, 161);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
