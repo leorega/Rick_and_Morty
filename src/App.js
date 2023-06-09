@@ -8,6 +8,7 @@ import Detail from './views/detail/Detail';
 import Form from './components/form/Form';
 import ErrorPage from './views/error/ErrorPage';
 import './App.css';
+import Favorites from './views/favorites/favorites';
 
 function App() {
 
@@ -89,6 +90,7 @@ function App() {
             <Route path='/home' element={<Cards characters={characters} onClose={closeHandler}/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/detail/:id' element={<Detail/>}/>
+            <Route path='/favorites' element={<Favorites onClose={closeHandler}/>}/>
             <Route path='*' element={<ErrorPage/>}/>
          </Routes>
       </div>
