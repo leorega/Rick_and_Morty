@@ -20,6 +20,7 @@
     border-radius: 10px;
     background-color: #000000;
     color: aqua;
+    padding: 2%;
 }
 
 .button:hover {
@@ -50,4 +51,11 @@
     padding: 5px;
     margin-top: 5px;
     background-color: rgb(188, 225, 195,0.5);
+}
+
+.number {
+    margin: 1px;
+    font-family: 'rickpickle';
+    color: rgb(9, 151, 161);
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }

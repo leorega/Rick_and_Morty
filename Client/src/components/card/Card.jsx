@@ -40,7 +40,8 @@ function Card(props) {
       <div className={styles.card}>
          <button className={styles.button} onClick={()=>{onClose(character.id)}}>X</button>
          <img src={character.image} alt={character.name} className={styles.images}
-         onClick={navigateHandler} />
+         onClick={navigateHandler} 
+         />
          {fav ? (
             <button onClick={() => handleFavorite(character.id)}>❤️</button>
          ) : (
@@ -51,6 +52,7 @@ function Card(props) {
             <h2 className={styles.font}> + Species: {character.species}</h2>
             <h2 className={styles.font}> + Genre: {character.gender}</h2>
          </div>
+            <h3 className={styles.number}>{character.id}</h3>
       </div>
    );
 }

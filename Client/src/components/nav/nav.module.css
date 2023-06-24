@@ -4,6 +4,9 @@
     align-items: center;
     height: auto;
     padding: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .buttons {
@@ -14,4 +17,5 @@
     font-size: large;
     border-radius: 5px;
     background-color: rgb(157, 214, 233);
+    box-shadow: 0 0 7px 3px #fff;
 }
