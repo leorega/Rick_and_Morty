@@ -54,8 +54,9 @@ function Form(props) {
             </input>
             {errors.password && <span className={styles.span}>{errors.password}</span>}
             {errors.email || errors.password ? null :
-                <button type='submit' className={styles.button} login={login}>Submit</button>
+                <button type='submit' className={styles.button} login={login}>Sign in</button>
             }
+            <button className={styles.button}>Sign up!</button>
         </form>
     )
 }

@@ -1,11 +1,11 @@
 .filterButtons {
-    margin: 0 10px;
+    margin: 10px;
     font-family: 'rickpickle';
     font-size: large;
     border-radius: 5px;
     background-color: rgb(157, 214, 233);
     box-shadow: 0 0 7px 3px #fff;
     position: sticky;
-    top: 150px;
+    top: 100px;
     z-index: 9999;
 }

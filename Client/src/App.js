@@ -35,7 +35,8 @@ function App() {
          access && Navigate('/home');
       }
       catch (error) {
-         console.log(error)
+         console.log("Error en el incio de sesión:", error.message);
+         window.alert("Usuario o contraseña incorrecta");
       };
    };
 

@@ -17,14 +17,14 @@ async function getCharById (req, res) {
                     gender: gender,
                 };
     
-                res.status(200).json(character);
+                return res.status(200).json(character);
             }
             else {
-                res.status(404).send('Not found');
+                return res.status(404).send('Not found');
             }
     }
     catch (error) {
-        res.status(500).json({message: error.message});
+        return res.status(500).json({message: error.message});
     };
 };
 

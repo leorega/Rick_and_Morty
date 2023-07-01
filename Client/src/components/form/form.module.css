@@ -5,7 +5,7 @@
     width: 30%;
     height: auto;
     margin: auto;
-    padding: 30px;
+    padding-top: 30px;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px #fff;
     background-color: rgb(188, 225, 195,0.5);
@@ -36,7 +36,8 @@
     background-color: rgb(157, 214, 233);
     height: 30px; 
     font-family: 'rickpickle';
-    font-size: larger;   
+    font-size: larger;
+    margin: 5px;   
 }
 
 .span {
